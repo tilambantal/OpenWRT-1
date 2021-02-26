@@ -1,7 +1,7 @@
 name: Newifi_D2
 
 env:
-  REPO_URL: https://openwrt/openwrt
+  REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: newifid2.config
