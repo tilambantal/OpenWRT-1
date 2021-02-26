@@ -5,7 +5,7 @@ Build OpenWrt using GitHub Actions
 
 ## Usage
 
-- Click the [Use this template](https://github.com/solomonricky/OpenWrt/generate) button to create a new repository.
+- Click the [Use this template](https://github.com/solomonricky/OpenWRT/generate) button to create a new repository.
 - You can use my `.config` file to run this workflow or you can generate your own  `.config` file using [OpenWrt](https://github.com/openwrt/openwrt) source code. ( You can change it through environment variables in the workflow file. )
 - If you use my `.config` file skip this step. If you using your own `.config` file, upload to the GitHub repository.
 - Select `Your Build Target` on the Actions page.
