@@ -2,7 +2,7 @@ name: Newifi_D2
 
 env:
   REPO_URL: https://github.com/openwrt/openwrt
-  REPO_BRANCH: openwrt-21.02
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: Newifi_D2.config
   DIY_P1_SH: diy-part1.sh
@@ -13,7 +13,7 @@ env:
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: false
   TZ: Asia/Shanghai
-  FILE_NAME: Newifi_D2 OpenWRT R21.02
+  FILE_NAME: Newifi_D2 OpenWRT SNAPSHOT
 
 on:
   repository_dispatch:
