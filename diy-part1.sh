@@ -6,4 +6,6 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
-sed -i '$a src-git argontheme https://github.com/jerrykuku/luci-theme-argon' feeds.conf.default
+git clone https://github.com/jerrykuku/luci-theme-argon.git  package/luci-theme-argon
+git clone https://github.com/Leo-Jo-My/luci-theme-Butterfly package/luci-theme-butterfly
+git clone https://github.com/Leo-Jo-My/luci-theme-Butterfly-dark package/luci-theme-butterfly-dark
